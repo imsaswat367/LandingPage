@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#hero {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#hero h2 {
+  margin-bottom: 20px;
+  background-image:url(https://www.shutterstock.com/image-vector/online-education-hand-drawn-seamless-260nw-1777262141.jpg);
+  background-size: cover;
+  background-position: center;
+  min height: 60vh;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.course {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.course img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
