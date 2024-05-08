@@ -42,25 +42,33 @@ section {
 
 #hero {
   background-color: #f4f4f4;
+  background-image:url(https://www.shutterstock.com/image-vector/online-education-hand-drawn-seamless-260nw-1777262141.jpg);
   text-align: center;
 }
 
 #hero h2 {
   margin-bottom: 20px;
-  background-image:url(https://www.shutterstock.com/image-vector/online-education-hand-drawn-seamless-260nw-1777262141.jpg);
+  color:white ;
   background-size: cover;
   background-position: center;
-  min height: 60vh;
+  min height: 8px;
   width: 100%;
+  
+}
+#hero p{
+  color: white;
 }
 
 .btn {
   display: inline-block;
-  background-color: #333;
+  background-color: rgb(98, 98, 98);
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+}
+.btn:hover{
+  background-color: black;
 }
 
 .course {
@@ -77,4 +85,9 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
+}
+
+.forms{
+  box-sizing: border-box;
+  border: 5px 5px black;
 }
